@@ -126,9 +126,14 @@ header img {
 .topInfo {
 	display: flex;
 	justify-content: center;
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 50px;
 	padding: 40px 0 0 0;
+	width: 90%;
 	
+}
+
+.topInfo p{
+	width: 95%
 }
 
 .features{
@@ -155,6 +160,10 @@ header img {
 	padding: 0 0 40px 0;
 }
 
+.bottomInfo p {
+	width: 95%;
+}
+
 .services{
 	display: flex;
 	flex-direction: column;
@@ -178,7 +187,7 @@ header img {
 	display: flex;
 	flex-direction: column;
 	width: 200px;
-	margin: 40px 0 0 273px;
+	margin: 40px 0 0 100px;
 }
 
 #Contact {
@@ -234,8 +243,8 @@ footer {
 
 .bottomLine {
 	border: 1px solid black;
-	width: 1255px;
-	margin: 0 0 40px 60px;
+	width: 1000px;
+	margin: auto;
 }
 
 .mainBody {
