@@ -244,7 +244,7 @@ footer {
 .bottomLine {
 	border: 1px solid black;
 	width: 1000px;
-	margin: auto;
+	margin: 0 auto 5% auto;
 }
 
 .mainBody {
@@ -452,7 +452,7 @@ footer {
 
 	.bottomInfo{
 		width: 95%;
-		padding: 0 0 0 2.5%;
+		padding: 0 0 0 9%;
 	}
 
 	.bottomInfo p {
@@ -499,11 +499,25 @@ footer {
 }
 
 	nav img {
-		padding: 0 0 5% 7.5%;
+		padding: 5% 0 0 10%;
 	}
 
 	.headerButton {
 		margin: 70% 0 0 0;
+	}
+
+	#servicesHeaderImg {
+		display: flex;
+	}
+
+	.services-header-img {
+		width: 95%
+	}
+
+	.services2 {
+		display: flex;
+		width: 95%;
+		margin: 0 1% 0 3%;
 	}
 
 	.topLine {
@@ -522,6 +536,63 @@ footer {
 		margin: 10% 0 5% 0;
 	}
 
+	.mainBody {
+		display: flex;
+		flex-flow: column wrap;
+		width: 95%;
+		height: 305%;
+		justify-content: flex-start;
+		padding: 0 1% 0 3%;
+	}
+
+	.digitalDesign {
+		display: flex;
+		flex-direction: column;
+		width: 95%;
+		height: 45vh;
+		
+	}
+
+	.uxui {
+		display: flex;
+		flex-direction: column;
+		width: 95%;
+		height: 45vh;
+		
+	}
+
+	.digitalMarketing {
+		display: flex;
+		flex-direction: column;
+		width: 95%;
+		height: 45vh;
+		
+	}
+
+	.webDevelopment {
+		display: flex;
+		flex-direction: column;
+		width: 95%;
+		height: 45vh;
+		
+	}
+
+	.iOS {
+		display: flex;
+		flex-direction: column;
+		width: 95%;
+		height: 45vh;
+		
+	}
+
+	.android {
+		display: flex;
+		flex-direction: column;
+		width: 95%;
+		height: 45vh;
+		
+	}
+
 	.middle-img{
 		width: 95%;
 		margin: 5% 0 0 0;
@@ -530,8 +601,25 @@ footer {
 	.bottomInfo {
 		display: flex;
 		flex-direction: column;
-		width: 95%;
-		padding: 0 0 0 2.5%;
+		align-items: center;
+		width: 100vw;
+		padding: 0 0 0 26%;
+	}
+
+	.bottomInfo .services {
+		width: 100vw;
+		height: 20vh;
+	}
+
+	.bottomInfo .product {
+		width: 100vw;
+		height: 20vh;
+	}
+
+	.bottomInfo .vision {
+		width: 100vw;
+		height: 20vh;
+		margin: 0 0 5% 0;
 	}
 
 	.bottomInfo h2 {
@@ -545,6 +633,29 @@ footer {
 	.bottomLine {
 		width: 95%;
 		margin: 5% 0 5% 0;
+	}
+
+	.bottomLineParentServices {
+		width: 95%;
+		margin: 0 auto 0 auto;
+	}
+
+	.facts {
+		display: flex;
+		flex-flow: column wrap;
+		padding: 0 0 0 3%;
+	}
+	.facts div {
+		display: flex;
+		flex-flow: column wrap;
+		height: 300%;
+		width: 95%;
+	}
+
+	.facts img {
+		display: flex;
+		width: 95%;
+		margin: 5% 0 0 0;
 	}
 
 	.contact {
