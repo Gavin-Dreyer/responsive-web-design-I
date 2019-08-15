@@ -403,6 +403,9 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+	body {
+	}
+	
 	nav {
 		display: flex;
 		flex-direction: column;
@@ -426,9 +429,18 @@ footer {
 		display: none;
 	}
 
+	.services-header-img {
+		width: 80%;
+		margin: 5% auto 5% auto;
+	}
+
+	.services2 {
+		width: 70%;
+	}
+
 	.topLine {
 		width: 95%;
-		margin: 5% 0 5% 0;
+		margin: 5% auto 5% auto;
 	}
 
 	.topInfo {
@@ -440,6 +452,13 @@ footer {
 
 	.topInfo p {
 		width: 90%;
+	}
+
+	.mainBody {
+		width: 50%;
+		height: 275vh;
+		margin: none;
+		padding: none;
 	}
 
 	#middleImg {
@@ -461,7 +480,12 @@ footer {
 
 	.bottomLine {
 		width: 95%;
-		margin: 5% 0 5% 0;
+		margin: 5% auto 5% auto;
+	}
+
+	.facts {
+		width: 95%;
+		margin: auto;
 	}
 
 	.contact {
@@ -540,7 +564,7 @@ footer {
 		display: flex;
 		flex-flow: column wrap;
 		width: 95%;
-		height: 305%;
+		height: 315%;
 		justify-content: flex-start;
 		padding: 0 1% 0 3%;
 	}
